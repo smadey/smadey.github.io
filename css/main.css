@@ -1,0 +1,61 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Microsoft yahei';
+}
+
+body > #content {
+    height: auto;
+    min-height: 100%;
+    padding-bottom: 20px;
+}
+
+body > #footer {
+    background-color: #f8f8f8;
+    color: #666;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: -20px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.view > article:first-child {
+    margin-top: 100px;
+}
+
+.jumbotron {
+    background-image: url('../img/冬至.jpg');
+    background-size: cover;
+    height: 600px;
+}
+.wrapper {
+    background-color: #fff;
+    border: 1px solid #eee;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
+
+
+.developer_description {
+    padding-right: 15px;
+}
+
+.developer_skill {
+    background-image: url('../img/前端工程师.gif');
+    background-size: cover;
+    height: 539px;
+    margin-left: -30px;
+    margin-right: -30px;
+}
+
+.tetrisContainer {
+    background-image: url('../img/俄罗斯方块.jpg');
+    background-size: cover;
+    display: block;
+    height: 326px;
+    margin: 15px auto;
+    width: 270px;
+}
