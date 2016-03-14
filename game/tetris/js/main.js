@@ -23,9 +23,9 @@ var KEY = { LEFT: 65, RIGHT: 68, UP: 87, DOWN: 83, CHANGE: 74, STOP: 75, SPACE: 
 
 var imglist = {};
 var imgData = new Array(
-		{ name: "b0", path: "./js/tetris/images/00.png" },
-		{ name: "b1", path: "./js/tetris/images/f0.png" },
-		{ name: "b10", path: "./js/tetris/images/ff.png" }
+		{ name: "b0", path: "./img/00.png" },
+		{ name: "b1", path: "./img/f0.png" },
+		{ name: "b10", path: "./img/ff.png" }
 	);
 
 function main(){
